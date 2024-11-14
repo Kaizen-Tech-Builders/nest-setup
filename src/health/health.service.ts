@@ -4,7 +4,7 @@ import { HealthResponseDTO } from './dto/healthResponse.dto';
 @Injectable()
 export class HealthService {
 	checkHealth(): HealthResponseDTO {
-		const password= 'test-5';
+		const password = 'test-5';
 		Logger.log('password', password);
 		Logger.log('Health check requested: Nest Setup is alive test-5');
 		return {
