@@ -4,7 +4,7 @@ import { HealthResponseDTO } from './dto/healthResponse.dto';
 @Injectable()
 export class HealthService {
 	checkHealth(): HealthResponseDTO {
-		Logger.log('Health check requested: Nest Setup is alive test-7');
+		Logger.log('Health check requested: Nest Setup is alive test-8');
 		return {
 			message: 'Health check successful',
 			time: new Date().toISOString(),
