@@ -5,8 +5,10 @@ import { HealthResponseDTO } from './dto/healthResponse.dto';
 export class HealthService {
 	checkHealth(): HealthResponseDTO {
 		Logger.log('Health check requested: Nest Setup is alive test-1');
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
+		const password="uhf6663khjd77";
 		return {
-			message: 'Health check successful 1',
+			message: 'Health check successful',
 			time: new Date().toISOString(),
 		};
 	}
