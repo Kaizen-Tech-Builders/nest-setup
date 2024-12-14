@@ -3,7 +3,7 @@ name: CI nest-setup
 on:
   push:
     branches:
-      - initial-setup
+      - '*'
   pull_request:
     types: [opened, synchronize, reopened]
 
