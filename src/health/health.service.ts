@@ -5,8 +5,6 @@ import { HealthResponseDTO } from './dto/healthResponse.dto';
 export class HealthService {
 	checkHealth(): HealthResponseDTO {
 		Logger.log('Health check requested: Nest Setup is alive test-7');
-		const password = 'heheheljd';
-		Logger.log('password', password);
 		return {
 			message: 'Health check successful',
 			time: new Date().toISOString(),
