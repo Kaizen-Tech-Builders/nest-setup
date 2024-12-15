@@ -36,7 +36,7 @@ export default [
 
       parserOptions: {
         project: 'tsconfig.json',
-        tsconfigRootDir: '/Users/shashwotbhattarai/repos/personal_projects/nest-setup',
+        tsconfigRootDir: __dirname,
       },
     },
 
